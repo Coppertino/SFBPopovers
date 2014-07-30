@@ -117,6 +117,10 @@ typedef enum SFBPopoverPosition SFBPopoverPosition;
 - (BOOL) drawsArrow;
 - (void) setDrawsArrow:(BOOL)drawsArrow;
 
+// Offset from the side to the arrow. Works only if arrow positioned from the side
+- (CGFloat) arrowOffset;
+- (void) setArrowOffset:(CGFloat)arrowOffset;
+
 // The width of the arrow, if applicable
 - (CGFloat) arrowWidth;
 - (void) setArrowWidth:(CGFloat)arrowWidth;

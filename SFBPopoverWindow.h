@@ -54,6 +54,8 @@
 
 - (BOOL) drawsArrow;
 - (void) setDrawsArrow:(BOOL)drawsArrow;
+- (CGFloat) arrowOffset;
+- (void) setArrowOffset:(CGFloat)arrowOffset;
 - (CGFloat) arrowWidth;
 - (void) setArrowWidth:(CGFloat)arrowWidth;
 - (CGFloat) arrowHeight;

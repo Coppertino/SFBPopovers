@@ -49,6 +49,7 @@
 @property (nonatomic, assign) CGFloat cornerRadius;
 
 @property (nonatomic, assign) BOOL drawsArrow;
+@property (nonatomic, assign) CGFloat arrowOffset;
 @property (nonatomic, assign) CGFloat arrowWidth;
 @property (nonatomic, assign) CGFloat arrowHeight;
 @property (nonatomic, assign) BOOL drawRoundCornerBesideArrow;

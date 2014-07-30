@@ -324,6 +324,15 @@
 	[_popoverWindow setDrawsArrow:drawsArrow];
 }
 
+- (CGFloat) arrowOffset
+{
+    return [_popoverWindow arrowOffset];
+}
+- (void) setArrowOffset:(CGFloat)arrowOffset
+{
+    [_popoverWindow setArrowOffset:arrowOffset];
+}
+
 - (CGFloat) arrowWidth
 {
 	return [_popoverWindow arrowWidth];

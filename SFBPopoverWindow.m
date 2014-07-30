@@ -344,6 +344,17 @@
 	[[self popoverWindowFrame] setNeedsDisplay:YES];
 }
 
+- (CGFloat) arrowOffset
+{
+    [[self popoverWindowFrame] arrowOffset];
+}
+
+- (void) setArrowOffset:(CGFloat)arrowOffset
+{
+    [[self popoverWindowFrame] setArrowOffset:arrowOffset];
+    [[self popoverWindowFrame] setNeedsDisplay:YES];
+}
+
 - (CGFloat) arrowWidth
 {
 	return [[self popoverWindowFrame] arrowWidth];
