@@ -9,7 +9,8 @@ Pod::Spec.new do |s|
                        "mail" => "me@sbooth.org" }
   s.license        = { :type => 'Apache License, Version 2.0' }
   s.source         = { :git => "https://github.com/Coppertino/SFBPopovers.git", :branch => "master" }
-
+  
+  s.source_files   = 'SFBPopover.h', 'SFBPopover.m','SFBPopoverWindow.h','SFBPopoverWindow.m','SFBPopoverWindowFrame.h','SFBPopoverWindowFrame.m'
   s.platform       = :osx, '10.7'
   s.requires_arc   = true
   s.frameworks     = 'QuartzCore', 'Cocoa'
